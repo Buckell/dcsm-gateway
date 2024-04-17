@@ -37,9 +37,9 @@ ${chalk.whiteBright.bgGreen.bold('npm uninstall your-package')}
    'Then, instead of installing the package to the root "./package.json":',
  )}
 ${chalk.whiteBright.bgRed.bold('npm install your-package')}
- ${chalk.bold('Install the package to "./release/app/package.json"')}
+ ${chalk.bold('Install the package to "./release/App/package.json"')}
 ${chalk.whiteBright.bgGreen.bold(
-  'cd ./release/app && npm install your-package',
+  'cd ./release/App && npm install your-package',
 )}
  Read more about native dependencies at:
 ${chalk.bold(
